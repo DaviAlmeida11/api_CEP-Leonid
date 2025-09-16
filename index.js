@@ -14,7 +14,7 @@ async function preencherCampos ({target}){
     document.getElementById('bairro').value = infoCep.bairro
     document.getElementById('cidade').value = infoCep.localidade
     document.getElementById('estado').value = infoCep.estado
-    document.getElementById('numero').value = infoCep.logradouro
+    document.getElementById('numero').value = 
 }
 document.getElementById('cep')
         .addEventListener('focusout', preencherCampos)
